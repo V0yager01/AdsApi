@@ -1,0 +1,7 @@
+  version: '3'
+
+  services:
+    adsapi:
+      build: ./adapp/
+      ports:
+        - 8000:8000
